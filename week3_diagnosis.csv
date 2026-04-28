@@ -1,0 +1,4 @@
+Issue,Root Cause,Fix Applied,Week 4 Result
+Trust score dropped from 7.8 to 5.2,AI suggested leads from wrong industry segments,Added rep feedback loop for lead rating,Trust recovered to 8.1
+Lead acceptance rate dropped from 72% to 48%,Same — irrelevant leads lowered acceptance,Feedback loop + manual industry filter,Acceptance rate back to 74%
+5 reps scored below trust 5,No territory/segment filters in AI lead matching,Added territory input to AI config,Zero reps below 5
