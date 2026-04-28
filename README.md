@@ -10,7 +10,7 @@
 
 A mock customer success project for **NovaTech Inc.**, a B2B SaaS company rolling out an **AI Sales Assistant (LeadBot)** to a team of 12 sales reps. The project tracks a 4-week deployment sprint from onboarding through outcome measurement, including diagnosing and resolving a mid-sprint adoption dip.
 
-This is the kind of work an **Applied AI Coach** or **Customer Success Analyst** does — tracking whether AI tools are actually delivering the business results they were promised to bring.
+This is the kind of work an **Applied AI Coach** or **Customer Success Analyst** does tracking whether AI tools are actually delivering the business results they were promised to bring.
 
 ---
 
@@ -27,7 +27,7 @@ This is the kind of work an **Applied AI Coach** or **Customer Success Analyst**
 - **Week 3:** Trust dipped sharply (7.8 → 5.2). Five reps stopped trusting AI-suggested leads. Lead acceptance dropped from 72% to 48%.
 - **Diagnosis:** AI was suggesting leads from wrong industry segments. No territory filters existed.
 - **Fix:** Added a rep feedback loop (reps rate each lead) + territory/industry filters in AI config.
-- **Week 4:** Full recovery. Trust back to 8.1, acceptance at 74%, hours saved hit 5.6/week — exceeding the target.
+- **Week 4:** Full recovery. Trust back to 8.1, acceptance at 74%, hours saved hit 5.6/week exceeding the target.
 
 ---
 
@@ -65,14 +65,14 @@ Raw adoption data for all 12 reps across 4 weeks — logins, leads researched, l
 
 ### 3. Dashboard Data (CSVs)
 Four Tableau-ready CSV files for building the adoption dashboard:
-- **weekly_summary.csv** — one row per week, all key metrics
-- **rep_level_weekly.csv** — granular per-rep data for drill-downs
-- **trust_score_by_rep.csv** — pivoted trust scores for heatmap
-- **adoption_trend_with_targets.csv** — actuals vs targets for line charts
+- **weekly_summary.csv** : one row per week, all key metrics
+- **rep_level_weekly.csv** : granular per-rep data for drill-downs
+- **trust_score_by_rep.csv** :pivoted trust scores for heatmap
+- **adoption_trend_with_targets.csv** : actuals vs targets for line charts
 
 ### 4. Analysis Outputs
-- **outcome_vs_business_case.csv** — did the AI tool deliver what was promised?
-- **week3_diagnosis.csv** — what went wrong, why, and how it was fixed
+- **outcome_vs_business_case.csv** : did the AI tool deliver what was promised?
+- **week3_diagnosis.csv** : what went wrong, why, and how it was fixed
 
 ### 5. Business Review Presentation (PPTX)
 A 7-slide executive deck covering:
